@@ -15,31 +15,31 @@ Technology partners can request no cost software subscriptions through the Red H
 
 Scroll down, choose the platform to request access for, and click “request subscription”. You will receive an email regarding the status of your request. + 
 
-image::Picture1.png[400,400]
-
+image::Picture1.png[300,300]
+{sp} + 
 
 == Install RHEL
 Once you have obtained an active subscription, we can download RHEL. Head to the https://access.redhat.com/[Customer Portal].
 
 *_Login and click "Downloads"_* +
 
-image::Picture2.png[]
+image::Picture2.png[250,700]
+{sp} + 
 
- 
 *_Select “Download Latest (Server)”_* +
 
-image::Picture3-1.png[]
-
+image::Picture3-1.png[250,700]
+{sp} + 
 
 *_Select the version of RHEL you wish to download_* + 
 
 image::Picture4.png[]
-
+{sp} + 
 
 *_Click “download now” next to the file format of your choosing_* + 
 
 image::Picture5.png[]
-
+{sp} + 
 
 == Register and Setup Subsciption Manager
 == Install Docker
