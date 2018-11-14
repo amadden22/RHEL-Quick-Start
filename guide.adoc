@@ -21,17 +21,24 @@ image::Picture1.png[400,400]
 == Install RHEL
 Once you have obtained an active subscription, we can download RHEL. Head to the https://access.redhat.com/[Customer Portal].
 
-Login and click "Downloads"
+Login and click "Downloads" +
+
 image::Picture2.png[]
 
-Now click the drop down arrow next to “Red Hat Enterprise Linux” in the “Product Downloads” section. Select “Download Latest (Server)”
-image:: Picture3.png[]
 
-Select the version of RHEL you wish to download.
-image:: Picture4.png[]
+Now click the drop down arrow next to “Red Hat Enterprise Linux” in the “Product Downloads” section. Select “Download Latest (Server)” +
 
-Then scroll down and select the download format you want to use. Select “download now” and the file will being downloading to your system.
-image:: Picture5.png[]
+image::Picture3.png[]
+
+
+Select the version of RHEL you wish to download. + 
+
+image::Picture4.png[]
+
+
+Then scroll down and select the download format you want to use. Select “download now” and the file will being downloading to your system. + 
+
+image::Picture5.png[]
 
 
 
