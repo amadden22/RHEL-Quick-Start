@@ -42,6 +42,28 @@ image::Picture5.png[300,700]
 {sp} + 
 
 == Install RHEL
+With our installation file downloaded  . 
+
+*_Press enter to begin the installation_*
+
+image:Picture6.png
+{sp} + 
+
+*_Choose a language and click continue_*
+
+image:Picture7.png
+{sp} + 
+
+Here an installation dashboard will appear. You can customize the installation to fit your needs by selecting the different icons. When your happy with the chosen settings, click *_Begin Installation_*
+
+image:Picture8.png
+{sp} + 
+
+Make sure to enter a root password and create a user for your system, while the installation is loading. 
+
+
+
+
 == Register and Setup Subsciption Manager
 == Install Docker
 == Build Container
