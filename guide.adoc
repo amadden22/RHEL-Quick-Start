@@ -133,7 +133,7 @@ systemctl start docker
 ----
 
 == Build Container
-We can finally get to the fun stuff now, building our own containers. For partners wishing to publish a container in RHCC, note that your container must follow the https://connect.redhat.com/zones/containers/container-certification-policy-guide[Container Certification Policy Guide]. I'll be building a simple Apache web server that follows the policy guide for demonstration purposes. You can find the Dockerfile https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Examples [here] if you want to follow along. 
+We can finally get to the fun stuff now, building our own containers. For partners wishing to publish a container in RHCC, note that your container must follow the https://connect.redhat.com/zones/containers/container-certification-policy-guide[Container Certification Policy Guide]. I'll be building a simple Apache web server that follows the policy guide for demonstration purposes. You can find the Dockerfile https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Examples[here] if you want to follow along. 
 
 
 == Upload Image to Red Hat Connect
