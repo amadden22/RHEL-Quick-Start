@@ -70,6 +70,23 @@ image:Picture9.png[500,400]
 
 
 == Register and Setup Subsciption Manager
+Now with RHEL installed, let’s register the system to your Customer Portal account with subscription manager. At the command line, use your Red Hat account username and password to register:
+----
+# subscription-manager register --username <myusername> --password <mypassword>
+
+  This system has been registered with id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+----
+
+You can view a list of systems registered to your account within the https://access.redhat.com/management/systems[Customer Portal].
+*List of systems:*
+image:Picture10.png[500,400]
+{sp} + 
+{sp} + 
+
+*Detailed view:*
+image:Picture11.png[500,400]
+{sp} + 
+{sp} + 
 == Install Docker
 == Build Container
 == Upload Image to Red Hat Connect
