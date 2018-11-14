@@ -1,4 +1,4 @@
-= Introduction to Red Hat Connect API
+= RHEL Quick Start: Container Zone
 ifdef::env-github[]
 :imagesdir: ../assets/
 endif::[]
