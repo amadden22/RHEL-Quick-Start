@@ -33,12 +33,12 @@ image::Picture3-1.png[250,700]
 
 *_Select the version of RHEL you wish to download_* + 
 
-image::Picture4.png[]
+image::Picture4.png[250,700]
 {sp} + 
 
-*_Click “download now” next to the file format of your choosing_* + 
+*_Click “Download Now” next to the file format of your choosing_* + 
 
-image::Picture5.png[]
+image::Picture5.png[250,700]
 {sp} + 
 
 == Register and Setup Subsciption Manager
