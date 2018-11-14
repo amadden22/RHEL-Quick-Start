@@ -42,24 +42,28 @@ image::Picture5.png[300,700]
 {sp} + 
 
 == Install RHEL
-With our installation file downloaded  . 
+For this guide, I'll be installing RHEL on a virtual machine. However, the installation process will be the same on whichever platform you choose. 
 
 *_Press enter to begin the installation_*
 
 image:Picture6.png[500,400]
 {sp} + 
 {sp} + 
+
 *_Choose a language and click continue_*
 
 image:Picture7.png[500,400]
 {sp} + 
 {sp} + 
+
 Here an installation dashboard will appear. You can customize the installation to fit your needs by selecting the different icons. When your happy with the chosen settings, click *_Begin Installation_*
 
 image:Picture8.png[500,400]
 {sp} + 
 {sp} + 
+
 Make sure to enter a *_root password_* and *_create a user_* for your system, while the installation is loading. 
+
 image:Picture9.png[500,400]
 {sp} + 
 {sp} + 
