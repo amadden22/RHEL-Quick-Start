@@ -18,7 +18,7 @@ Scroll down, choose the platform to request access for, and click “request sub
 image::Picture1.png[300,300]
 {sp} + 
 
-== Install RHEL
+== Download RHEL
 Once you have obtained an active subscription, we can download RHEL. Head to the https://access.redhat.com/[Customer Portal].
 
 *_Login and click "Downloads"_* +
@@ -41,6 +41,7 @@ image::Picture4.png[250,700]
 image::Picture5.png[250,700]
 {sp} + 
 
+== Install RHEL
 == Register and Setup Subsciption Manager
 == Install Docker
 == Build Container
