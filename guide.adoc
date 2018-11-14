@@ -90,6 +90,50 @@ image:Picture11.png[500,400]
 {sp} + 
 {sp} + 
 
+Now list all the available subscriptions for your system and note the *Pool ID* of the one you want to attach:
+----
+subscruption-manager list --available
+----
+
+Attach the subscription:
+----
+subscription-manager attach --pool=<PoolID>
+----
+
+Alternatively, you can automatically attach the subscription that best fits your system using:
+----
+subscription-manager attach --auto
+----
+
 == Install Docker
+Before installing Docker, your system will need to enable some specific Red Hat repositories:
+----
+subscription-manager repos --enable=rhel-7-server-rpms
+----
+----
+subscription-manager repos --enable=rhel-7-server-extras-rpms
+----
+----
+subscription-manager repos --enable=rhel-7-server-optional-rpms
+----
+
+Now, install Docker using Yum:
+----
+yum install docker
+----
+
+Enable the Docker service:
+----
+systemctl enable docker
+----
+
+Start the Docker service:
+----
+systemctl start docker
+----
+
 == Build Container
+We can finally get to the fun stuff now, building our own containers. For partners wishing to publish a container in RHCC, note that your container must follow the https://connect.redhat.com/zones/containers/container-certification-policy-guide[Container Certification Policy Guide]. I'll be building a simple Apache web server that follows the policy guide for demonstration purposes. You can find the Dockerfile https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Examples [here] if you want to follow along. 
+
+
 == Upload Image to Red Hat Connect
