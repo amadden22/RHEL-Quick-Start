@@ -1,0 +1,25 @@
+= Introduction to Red Hat Connect API
+ifdef::env-github[]
+:imagesdir: ../../assets/
+endif::[]
+:toc:
+:toc-placement!:
+
+This walkthrough is meant for members of the https://connect.redhat.com[Red Hat Partner Connect] program looking to publish a container image in the https://access.redhat.com/containers/[Red Hat Container Catalog(RHCC)]. The scope of this guide is to cover the installation and setup of RHEL, subscription manager, and Docker. You will also be shown how to upload built containers to Red Hat Connect for certification and publishing to RHCC.  + 
+
+toc::[]
+
+
+== Obtain Active Subscription for RHEL
+Technology partners can request no cost software subscriptions through the Red Hat Connect site https://connect.redhat.com/benefits/software-access[here]. + 
+
+Scroll down, choose the platform to request access for, and click “request subscription”. You will receive an email regarding the status of your request. + 
+
+
+
+
+== Install RHEL
+== Register and Setup Subsciption Manager
+== Install Docker
+== Build Container
+== Upload Image to Red Hat Connect
