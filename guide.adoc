@@ -16,7 +16,7 @@ Technology partners can request no cost software subscriptions through the Red H
 Scroll down, choose the platform to request access for, and click “request subscription”. You will receive an email regarding the status of your request. + 
 
 image::Picture1.png[400,400]
-
+---
 
 == Install RHEL
 Once you have obtained an active subscription, we can download RHEL. Head to the https://access.redhat.com/[Customer Portal].
@@ -24,22 +24,22 @@ Once you have obtained an active subscription, we can download RHEL. Head to the
 *_Login and click "Downloads"_* +
 
 image::Picture2.png[]
-
+---
  
 *_Click the drop down arrow next to “Red Hat Enterprise Linux” in the “Product Downloads” section. Select “Download Latest (Server)”_* +
 
-image::Picture3.png[750,500]
-
+image::Picture3-1.png[]
+---
 
 Select the version of RHEL you wish to download. + 
 
 image::Picture4.png[]
-
+---
 
 Then scroll down and select the download format you want to use. Select “download now” and the file will being downloading to your system. + 
 
 image::Picture5.png[]
-
+---
 
 
 Login and click Download 
