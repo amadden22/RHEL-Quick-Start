@@ -38,7 +38,7 @@ image::Picture4.png[250,700]
 
 *_Click “Download Now” next to the file format of your choosing_* + 
 
-image::Picture5.png[250,700]
+image::Picture5.png[300,700]
 {sp} + 
 
 == Install RHEL
