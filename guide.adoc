@@ -137,7 +137,55 @@ systemctl start docker
 ----
 
 == Build Container
-We can finally get to the fun stuff now, building our own containers. For partners wishing to publish a container in RHCC, note that your container must follow the https://connect.redhat.com/zones/containers/container-certification-policy-guide[Container Certification Policy Guide]. I'll be building a simple Apache web server that follows the policy guide for demonstration purposes. You can find the Dockerfile https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Examples[here] if you want to follow along. 
+We can finally get to the fun stuff now, building our own containers. For partners wishing to publish a container in RHCC, note that your container must follow the https://connect.redhat.com/zones/containers/container-certification-policy-guide[Container Certification Policy Guide] to pass the security scan in Connect. I'll be building a simple Apache web server that follows the policy guide for demonstration purposes. You can find the Dockerfile https://github.com/RHC4TP/starter/tree/master/Container%20Zone/Examples[here] if you want to follow along. 
 
+First we'll simply build the container image from the Dockerfile:
+----
+docker build . 
+----
+
+Check that the image was built and note the image ID (we'll use this to upload the image to Connect):
+----
+docker images
+----
 
 == Upload Image to Red Hat Connect
+With our container image built locally, we can now push the image to the Red Hat Connect registry. Once uploaded, the image will undergo a security scan to determine if the image meets all requirements from the policy guide and is allowed to be published to RHCC. 
+
+Head to your project page in Connect and select the tab "Upload Your Image"
+
+image:Picture12.png[500,400]
+{sp} + 
+{sp} + 
+
+Scroll down to "Container Registry Login" and copy the command into your local terminal 
+
+image:Picture13.png[500,400]
+{sp} + 
+{sp} + 
+
+Enter the key provided in the "View Registry Key" section
+
+image:Picture14.png[500,400]
+{sp} + 
+{sp} + 
+
+Tag the Container image, using the image ID from before, a image-name of your choosing, and a decriptive tag
+
+image:Picture15.png[500,400]
+{sp} + 
+{sp} + 
+
+Finally, push your container to the registry using the image-name and tag you declared in the step above
+
+image:Picture16.png[500,400]
+{sp} + 
+{sp} + 
+
+You can view the pushed image in the "Container Information" tab of your project
+
+image:Picture17.png[500,400]
+{sp} + 
+{sp} + 
+
+
