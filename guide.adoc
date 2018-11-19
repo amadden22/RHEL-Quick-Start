@@ -105,6 +105,10 @@ Alternatively, you can automatically attach the subscription that best fits your
 subscription-manager attach --auto
 ----
 
+You can check the attached subscriptions being used by your system with:
+----
+subscription-manager list --consumed
+----
 == Install Docker
 Before installing Docker, your system will need to enable some specific Red Hat repositories:
 ----
