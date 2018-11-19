@@ -5,7 +5,7 @@ endif::[]
 :toc:
 :toc-placement!:
 
-This walkthrough is meant for members of the https://connect.redhat.com[Red Hat Partner Connect] program looking to publish a container image in the https://access.redhat.com/containers/[Red Hat Container Catalog(RHCC)]. The scope of this guide is to cover the installation and setup of RHEL, subscription manager, and Docker. You will also be shown how to upload built containers to Red Hat Partner Connect for certification and publishing to RHCC.  + 
+This walkthrough is meant for members of the https://connect.redhat.com[Red Hat Partner Connect] program looking to upload a container image to the web portal and publish in the https://access.redhat.com/containers/[Red Hat Container Catalog(RHCC)]. The scope of this guide is to cover an end to end scenario for partners, from the installation and setup of Red Hat Enterprise Linux (RHEL) to uploading built containers to Red Hat Partner Connect for certification and publishing.  + 
 
 toc::[]
 
