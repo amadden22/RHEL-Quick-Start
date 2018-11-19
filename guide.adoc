@@ -203,8 +203,8 @@ image:Picture19.png[500,400]
 {sp} + 
 {sp} + 
 
-And that's it! Give yourself a pat on the back. You've now setup your own RHEL system and register with subscription manager, built a container using Docker, and uploaded it Red Hat Partner Connect for publishing. + 
+And that's it! Give yourself a pat on the back. You've now setup your own RHEL system and registered with subscription manager, built a container using Docker, and uploaded it to Red Hat Partner Connect for publishing. + 
 
-For further information on the Connect portal and the certification process, be sure to check out the https://github.com/RHC4TP/documentation/tree/master/Red%20Hat%20OpenShift%20-%20Container%20Zone[documentation].
+For further information on the Connect portal and the certification process, be sure to check out the official https://github.com/RHC4TP/documentation/tree/master/Red%20Hat%20OpenShift%20-%20Container%20Zone[documentation].
 
 
