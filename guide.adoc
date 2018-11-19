@@ -5,13 +5,13 @@ endif::[]
 :toc:
 :toc-placement!:
 
-This walkthrough is meant for members of the https://connect.redhat.com[Red Hat Partner Connect] program looking to publish a container image in the https://access.redhat.com/containers/[Red Hat Container Catalog(RHCC)]. The scope of this guide is to cover the installation and setup of RHEL, subscription manager, and Docker. You will also be shown how to upload built containers to Red Hat Connect for certification and publishing to RHCC.  + 
+This walkthrough is meant for members of the https://connect.redhat.com[Red Hat Partner Connect] program looking to publish a container image in the https://access.redhat.com/containers/[Red Hat Container Catalog(RHCC)]. The scope of this guide is to cover the installation and setup of RHEL, subscription manager, and Docker. You will also be shown how to upload built containers to Red Hat Partner Connect for certification and publishing to RHCC.  + 
 
 toc::[]
 
 
 == Obtain Active Subscription for RHEL
-Technology partners can request no cost software subscriptions through the Red Hat Connect site https://connect.redhat.com/benefits/software-access[here]. + 
+Technology partners can request no cost software subscriptions through the Red Hat Partner Connect site https://connect.redhat.com/benefits/software-access[here]. + 
 
 Scroll down, choose the platform to request access for, and click “request subscription”. You will receive an email regarding the status of your request. + 
 
@@ -149,8 +149,8 @@ Check that the image was built and note the image ID (we'll use this to upload t
 docker images
 ----
 
-== Upload Image to Red Hat Connect
-With our container image built locally, we can now push the image to the Red Hat Connect registry. Once uploaded, the image will undergo a security scan to determine if the image meets all requirements from the policy guide and is allowed to be published to RHCC. 
+== Upload Image to Red Hat Partner Connect
+With our container image built locally, we can now push the image to the Red Hat Partner Connect registry. Once uploaded, the image will undergo a security scan to determine if the image meets all requirements from the policy guide and is allowed to be published to RHCC. 
 
 Head to your project page in Connect and select the tab "Upload Your Image"
 
@@ -190,7 +190,7 @@ image:Picture17.png[500,400]
 
 == Next Steps
 
-You can see that my Apache Web Server image has not been upload and passed the security scan
+You can see that my Apache Web Server image has now been upload and passed the security scan
 
 image:Picture18.png[500,400]
 {sp} + 
@@ -202,5 +202,9 @@ However, we're still not given the option to publish to RHCC. This is because we
 image:Picture19.png[500,400]
 {sp} + 
 {sp} + 
+
+And that's it! Give yourself a pat on the back. You've now setup your own RHEL system and register with subscription manager, built a container using Docker, and uploaded it Red Hat Partner Connect for publishing. + 
+
+For further information on the Connect portal and the certification process, be sure to check out the https://github.com/RHC4TP/documentation/tree/master/Red%20Hat%20OpenShift%20-%20Container%20Zone[documentation].
 
 
