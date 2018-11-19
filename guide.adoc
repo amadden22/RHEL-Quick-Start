@@ -199,5 +199,8 @@ image:Picture18.png[500,400]
 
 However, we're still not given the option to publish to RHCC. This is because we need to complete all steps of the *Certification Checklist* before publishing. You can find more information on completing each step by clicking the drop down arrows. 
 
+image:Picture19.png[500,400]
+{sp} + 
+{sp} + 
 
 
