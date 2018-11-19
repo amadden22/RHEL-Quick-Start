@@ -170,7 +170,7 @@ image:Picture14.png[500,400]
 {sp} + 
 {sp} + 
 
-Tag the Container image, using the image ID from before, a image-name of your choosing, and a decriptive tag
+Tag the Container image, using the image ID from before, an image name of your choosing, and a descriptive tag
 
 image:Picture15.png[500,400]
 {sp} + 
@@ -187,5 +187,17 @@ You can view the pushed image in the "Container Information" tab of your project
 image:Picture17.png[500,400]
 {sp} + 
 {sp} + 
+
+== Next Steps
+
+You can see that my Apache Web Server image has not been upload and passed the security scan
+
+image:Picture18.png[500,400]
+{sp} + 
+{sp} + 
+
+
+However, we're still not given the option to publish to RHCC. This is because we need to complete all steps of the *Certification Checklist* before publishing. You can find more information on completing each step by clicking the drop down arrows. 
+
 
 
